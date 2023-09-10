@@ -10,7 +10,7 @@ app.get('/api', (req, res) => {
   const currentDay = new Date().toLocaleDateString('en-US', { weekday: 'long' });
   const utcTime = new Date().toISOString();
 
-  const githubFileUrl = 'https://github.com/username/repo/blob/main/file_name.ext';
+  const githubFileUrl = 'https://github.com/Samphomen/zuri001/blob/master/index.js';
   const githubRepoUrl = 'https://github.com/Samphomen/zuri001.git';
 
 
