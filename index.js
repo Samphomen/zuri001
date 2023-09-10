@@ -24,7 +24,15 @@ app.get('/api', (req, res) => {
     status_code: 200,
   };
 
-  res.status(200).json(response);
+  res.status(200).json({
+    slack_name: slackName,
+    current_day: currentDay,
+    utc_time: utcTime,
+    track: track,
+    github_file_url: githubFileUrl,
+    github_repo_url: githubRepoUrl,
+    status_code: 200,
+  });
 });
 
 
